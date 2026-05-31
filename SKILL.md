@@ -1,12 +1,11 @@
 ---
 name: news-intelligence
 description: Orchestrate news intelligence — search global news, get country-specific coverage, track trending topics, analyze sentiment, build timelines, and monitor via GDELT and NewsAPI. Use when searching for news, checking what's trending, analyzing media sentiment, building news timelines, or monitoring topics.
-version: "1.0.0"
 license: Apache-2.0
 compatibility: Requires mcp-news server connected (GDELT free, NewsAPI optional premium).
 allowed-tools: [search_news, get_country_news, get_trending_topics, get_news_timeline, get_news_sentiment, newsapi_search]
-tags: [communication, news, media, sentiment, trending, intelligence]
 metadata:
+  category: communication
   author: Zavora AI
   mcp-server: mcp-news
   success-criteria:
